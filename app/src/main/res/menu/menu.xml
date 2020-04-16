@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/inicio"
+        android:title="Inicio"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/insertar"
+        android:title="Insertar noticia"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/eliminar"
+        android:title="Eliminar noticia"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/salir"
+        android:title="Salir"
+        android:icon="@android:drawable/ic_lock_power_off"
+        app:showAsAction="never"
+        />
+
+</menu>

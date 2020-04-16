@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"-->
+    <!--Debemos de desactivar la Actionbar para que la Toolbar funcione-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--Esto es otra forma de desactivar la Actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Colores app-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Colores del texto-->
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+
+        <!--Fuente por defecto-->
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+
+        <!--Botones-->
+        <item name="colorButtonNormal">@color/colorAccent</item>
+
+        <!--Otros-->
+        <item name="android:icon">@color/colorIcons</item>
+        <item name="android:divider">@color/colorDivider</item>
+
+    </style>
+
+    <!--Estilo s para los títulos de las activity-->
+    <style name="Titles" parent="AppTheme">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!--Estilos para el titulo destacado en ficha_noticia-->
+    <style name="destacado" parent="AppTheme">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>

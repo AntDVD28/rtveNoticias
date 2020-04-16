@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">rtveNoticias</string>
+
+    <!--Títulos de las páginas-->
+    <string name="title_insertar">Insertar Noticia</string>
+    <string name="title_eliminar">Eliminar Noticia</string>
+    <string name="title_listado">Listado de noticias</string>
+    <string name="title_ficha">Ficha de Noticia</string>
+
+    <!--Página insertar noticia-->
+    <string name="titulo">Título de la noticia:</string>
+    <string name="enlace">Enlace web:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="boton_guardar">Guardar noticia</string>
+
+    <!--Página eliminar noticia-->
+    <string name="id">Número:</string>
+    <string name="boton_eliminar">Eliminar noticia</string>
+
+    <!--Página listado de noticias-->
+    <string name="fiable">Fiable</string>
+    <string name="nofiable">No fiable</string>
+
+    <!--Página ficha de noticia-->
+    <string name="leido">Leído</string>
+    <string name="favorita">Favorita</string>
+    <string name="boton_regresar">Regresar al listado</string>
+
+    <!--Servidor externo-->
+    <string name="titulo_servidor_externo">Ejemplo con Server Externo</string>
+
+
+
+</resources>
